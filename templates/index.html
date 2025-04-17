@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Personal Newspaper</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f7f7f7; }
+        .topic { background: white; padding: 15px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 5px #ccc; }
+        .title { font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+        .keywords { font-style: italic; color: #555; }
+    </style>
+</head>
+<body>
+    <h1>📰 Your Twitter Personal Newspaper</h1>
+    {% for topic in summary %}
+    <div class="topic">
+        <div class="title">Topic {{ topic.topic_id }}</div>
+        <div class="keywords">Top keywords: {{ topic.keywords | join(', ') }}</div>
+        <ul>
+            {% for tweet in topic.sample_tweets %}
+            <li><b>[{{ tweet.sentiment }}]</b> {{ tweet.text }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</body>
+</html>
