@@ -1,0 +1,147 @@
+[
+    {
+        "topic_id": 0,
+        "keywords": [
+            "day",
+            "miss",
+            "u",
+            "lol",
+            "im",
+            "hate",
+            "may",
+            "come",
+            "nice",
+            "much"
+        ],
+        "sample_tweets": [
+            {
+                "text": " Sooo SAD I will miss you here in San Diego!!!",
+                "sentiment": "negative"
+            },
+            {
+                "text": " Both of you",
+                "sentiment": "neutral"
+            },
+            {
+                "text": "test test from the LG enV2",
+                "sentiment": "neutral"
+            }
+        ]
+    },
+    {
+        "topic_id": 1,
+        "keywords": [
+            "im",
+            "know",
+            "sorry",
+            "like",
+            "need",
+            "u",
+            "dont",
+            "think",
+            "oh",
+            "please"
+        ],
+        "sample_tweets": [
+            {
+                "text": " oh Marly, I`m so sorry!!  I hope you find her soon!! <3 <3",
+                "sentiment": "neutral"
+            },
+            {
+                "text": "the free fillin` app on my ipod is fun, im addicted",
+                "sentiment": "positive"
+            },
+            {
+                "text": "  I`m sorry.",
+                "sentiment": "negative"
+            }
+        ]
+    },
+    {
+        "topic_id": 2,
+        "keywords": [
+            "im",
+            "day",
+            "go",
+            "get",
+            "work",
+            "today",
+            "going",
+            "like",
+            "got",
+            "happy"
+        ],
+        "sample_tweets": [
+            {
+                "text": " I`d have responded, if I were going",
+                "sentiment": "neutral"
+            },
+            {
+                "text": " what interview! leave me alone",
+                "sentiment": "negative"
+            },
+            {
+                "text": " Sons of ****, why couldn`t they put them on the releases we already bought",
+                "sentiment": "negative"
+            }
+        ]
+    },
+    {
+        "topic_id": 3,
+        "keywords": [
+            "thanks",
+            "thank",
+            "new",
+            "im",
+            "follow",
+            "one",
+            "sad",
+            "yeah",
+            "lol",
+            "followers"
+        ],
+        "sample_tweets": [
+            {
+                "text": "http://www.dothebouncy.com/smf - some shameless plugging for the best Rangers forum on earth",
+                "sentiment": "neutral"
+            },
+            {
+                "text": " Journey!? Wow... u just became cooler.  hehe... (is that possible!?)",
+                "sentiment": "positive"
+            },
+            {
+                "text": "My Sharpie is running DANGERously low on ink",
+                "sentiment": "negative"
+            }
+        ]
+    },
+    {
+        "topic_id": 4,
+        "keywords": [
+            "good",
+            "dont",
+            "one",
+            "think",
+            "morning",
+            "u",
+            "time",
+            "lol",
+            "love",
+            "get"
+        ],
+        "sample_tweets": [
+            {
+                "text": "my boss is bullying me...",
+                "sentiment": "negative"
+            },
+            {
+                "text": "Uh oh, I am sunburned",
+                "sentiment": "negative"
+            },
+            {
+                "text": "Hes just not that into you",
+                "sentiment": "neutral"
+            }
+        ]
+    }
+]
